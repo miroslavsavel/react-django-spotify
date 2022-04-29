@@ -57,7 +57,8 @@ file db.sqlite3 showed up
 # run server
 python .\manage.py runserver
 
-# creating model
+
+# 2 creating model
 -/api/models.py
 here we create new table (model in this case) with unique code
 -in music_controller folder
@@ -66,3 +67,9 @@ make migrations
 python .\manage.py migrate
 apply migration
 
+# creating api endpoint
+/api/serializers.py
+Serialier class
+/api/views.py
+
+/api/urls.py
