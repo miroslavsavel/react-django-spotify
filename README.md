@@ -73,3 +73,29 @@ Serialier class
 /api/views.py
 
 /api/urls.py
+
+# =================== 3
+add react
+cd music_controller
+install npm
+
+we will create new app called frontend
+- django-admin startapp frontend
+cd frontend
+create folders templates, static.., src 
+npm init -y
+npm i webpack webpack-cli --save-dev
+
+npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
+npm i react react-dom --save-dev
+npm install @material-ui/core
+
+npm ERR! Could not resolve dependency:
+https://stackoverflow.com/questions/64573177/unable-to-resolve-dependency-tree-error-when-installing-npm-packages
+
+npm install @material-ui/core --legacy-peer-deps
+npm install @babel/plugin-proposal-class-properties
+npm install react-router-dom
+npm install @material-ui/icons --legacy-peer-deps
+
+in frontend folder create babel.config.json
