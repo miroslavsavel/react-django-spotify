@@ -99,3 +99,31 @@ npm install react-router-dom
 npm install @material-ui/icons --legacy-peer-deps
 
 in frontend folder create babel.config.json
+
+git ignore https://github.com/rtancman/react-material-ui-auth/blob/master/.gitignore
+
+in frontend folder webpack.config.js
+ bunldle our js scripts to one file
+package.json
+
+in floder src make file index.js
+in folder /templates/frontend/index.html
+
+/frontend/views.py
+create /frontend/urls.py
+
+/music_controller/urls.py
+add route
+
+create react component
+create /frontend/src/components/App.js
+- here we create react component which will return the stuff rendered to div
+/frontend/src/index.js
+- here we pack ur javascript stuff by webpack
+
+npm run dev
+inside folder /frontend/static/frontend/main.js
+there is gibberish representing packed javascript by webpack
+
+/music_controller/settings.py
+we have to add our app
