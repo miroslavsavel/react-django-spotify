@@ -55,7 +55,13 @@ python .\manage.py migrate
 file db.sqlite3 showed up
 
 # run server
+============================================================
+cd \music_controler
 python .\manage.py runserver
+cd \frontend
+(npm run dev) - changes in react app
+- if changes wont show up => cache => hard reloading CTRL+R
+=============================================================
 
 
 # 2 creating model
@@ -127,3 +133,12 @@ there is gibberish representing packed javascript by webpack
 
 /music_controller/settings.py
 we have to add our app
+
+# 4 styling app
+/frontend/static/css/index.css
+/frontend/src/components/App.js
+
+npm run dev in frontend
+
+# routing and creating another react component
+create new component HomePage.js
