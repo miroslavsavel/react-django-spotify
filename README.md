@@ -142,3 +142,12 @@ npm run dev in frontend
 
 # routing and creating another react component
 create new component HomePage.js
+RoomJoinPage.js
+
+/frontend/urls.py
+we have to tell django
+
+2021 react dom v6 Switch is replaced by Routes
+cd frontend
+npm uninstall react-router-dom
+npm install react-router-dom@5.2.0
