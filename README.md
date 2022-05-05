@@ -1,5 +1,4 @@
 # react-django-spotify
-
 https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j
 
 VS code extension 
@@ -151,3 +150,12 @@ we have to tell django
 cd frontend
 npm uninstall react-router-dom
 npm install react-router-dom@5.2.0
+
+# 5 handling post requests
+backend - working on the view to create new room
+/api/views.py
+/api/serializers.py - define another serializer
+serializers???????
+/api/models.py
+
+7:39 session key - based on unique properties IP, browser..., stored in memory
