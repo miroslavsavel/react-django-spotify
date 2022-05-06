@@ -1,6 +1,7 @@
 # react-django-spotify
 https://www.youtube.com/watch?v=JD-age0BPVo&list=PLzMcBGfZo4-kCLWnGmK0jUBmGLaJxvi4j
 
+
 VS code extension 
 - prettier
 - python
@@ -159,3 +160,19 @@ serializers???????
 /api/models.py
 
 7:39 session key - based on unique properties IP, browser..., stored in memory
+
+https://www.django-rest-framework.org/tutorial/1-serialization/
+
+
+# #6 material UI components
+/frontend/src/components/CreateRoomPage.js
+https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/
+https://www.educative.io/edpresso/what-is-material-ui-in-react
+
+
+1. ensure all import is correct
+2. disable browser cache
+3. re-run Django and react
+
+The advice seems simple, but I hope no one else waste time on them just like me.
+
